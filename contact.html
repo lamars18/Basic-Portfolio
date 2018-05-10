@@ -3,7 +3,9 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Arial, Helvetica, sans-serif;background-image: url('assets/images/intersection.png');
+    content: 960px; 
+}
 
 input[type=text], select, textarea {
     width: 100%;
@@ -17,7 +19,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: rgb(76, 94, 175);
+    background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -33,13 +35,15 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    content: 960px;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #1c1ca8;
+    border-bottom: double;
+    border-bottom-color:#666666;
 }
 
 li {
@@ -48,7 +52,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #777777;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -59,16 +63,38 @@ li a:hover {
 }
 div {
     border-bottom: double;
+    
 }
 h1 {
-    color: white;
+    color:#ffffff;
+    border:#cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+body {
+    background-color: #ffffff;
+    border: #dddddd;
+}
+footer {
+    background-color: #666666; 
+    height:50px;
+    font-style: italic;
+    color:black; 
+    text-align: right; 
+}
+h2 {
+    color: #4aaaa5;
+}
+header{
+    background-color: #4aaaa5;
+    color: #f2f2f2;
+    width: 400px;
+    height: 75px;
+}
 </style>
 <body>
 
 <ul>
-  <li><a class="active" href="index.html">Home</a></li>
+  
   <li><a href="portfolio.html">Portfolio</a></li>
   <li><a href="contact.html">Contact</a></li>
   <li><a href="index.html">About</a></li>
@@ -94,6 +120,9 @@ h1 {
     <input type="submit" value="Submit">
   </form>
 </div>
+<footer class="site-footer">
+        Copyright @ SCBL
+</footer>
 
 </body>
 </html>

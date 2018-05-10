@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Arial, Helvetica, sans-serif;background-image: url('assets/images/intersection.png')}
 
 input[type=text], select, textarea {
     width: 100%;
@@ -17,7 +17,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: rgb(76, 94, 175);
+    background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -33,13 +33,15 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    content: 960px; 
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #1c1ca8;
+    border-bottom: double;
+    border-bottom-color:#666666;
 }
 
 li {
@@ -48,7 +50,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #777777;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -58,18 +60,42 @@ li a:hover {
     background-color: #111;
 }
 div {
-    border-bottom: double;
+    
 }
 h1 {
-    color: white;
+    color:#ffffff;
+    border: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+body {
+    background-color: #ffffff;
+    border: #dddddd;
+}
+footer {
+    background-color: #666666; 
+    height:50px;
+    font-style: italic;
+    color:black; 
+    text-align: right; 
 
-
+}
+h2 {
+    color: #4aaaa5;
+}
+header{
+    background-color: #4aaaa5;
+    color: #f2f2f2;
+    width: 400px;
+    height: 75px;
+}
+img {
+    margin: -5px;
+}
 </style>
 <body>
 
 <ul>
-  <li><a class="active" href="index.html">Home</a></li>
+  
   <li><a href="portfolio.html">Portfolio</a></li>
   <li><a href="contact.html">Contact</a></li>
   <li><a href="index.html">About</a></li>
@@ -82,11 +108,18 @@ h1 {
     </body>
     <div><H2>Portfolio</H2></div>
     <br>
-    <img src="images/profexp.jpeg" alt="Professional Experience" style="width:128px;height:128px;float: left;padding-right: 100px;">  
-    
-
-   
-    <img src="images/highered.jpeg" alt="Higher Education" style="width:128px;height:128px;">   
-    <p><br><img src="images/informationtechnology.jpeg" alt="Information Technology" style="width:128px;height:128px;float: left;padding-right: 100px;"></p> 
-    <img src="images/memberships.jpeg" alt="Memberships" style="width:128px;height:128px;">      
-    <p><br><img src="images/hobbies.jpeg" alt="Hobbies" style="width:128px;height:128px;float: left;padding-right: 100px;"></p>
+    <img src="images/profexp.jpeg" alt="Professional Experience" style="width:100px;height:100px;float: left;padding-right: 50px;">  
+     
+    <img src="images/highered.jpeg" alt="Higher Education" style="width:100px;height:100px;">   
+    <p><br><img src="images/informationtechnology.jpeg" alt="Information Technology" style="width:100px;height:100px;float: left;padding-right: 50px;"></p> 
+    <img src="images/memberships.jpeg" alt="Memberships" style="width:100px;height:100px;">      
+    <p><br><img src="images/hobbies.jpeg" alt="Hobbies" style="width:100px;height:100px;float: left;padding-right: 50px;"></p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="site-footer">
+            Copyright @ SCBL
+    </footer>
